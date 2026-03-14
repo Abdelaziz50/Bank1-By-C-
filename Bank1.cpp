@@ -8,13 +8,11 @@
 #include "MyLib.h"
 #include <iomanip> 
 #include <vector> 
-#include "MyPrint.h"
 #include <cctype> // isupper charcter Fanction
 #include <fstream>
-#include "Arr2D.h"
-#include "Corse7.h"
+
 using namespace std;
-//Function Declaration
+
 void PrintMainMenueScreen();
 bool ExisClientByAccountNumber(string AccountNumber);
 void TrancactionsMinueScreen();
